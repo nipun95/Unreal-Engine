@@ -1,8 +1,8 @@
-#include "RotateActor.h"
+#include "ActorRotate.h"
 
 
 // Sets default values
-ARotateActor::ARotateActor()
+AActorRotate::AActorRotate()
 {
  	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
@@ -13,14 +13,14 @@ ARotateActor::ARotateActor()
 }
 
 // Called when the game starts or when spawned
-void ARotateActor::BeginPlay()
+void AActorRotate::BeginPlay()
 {
 	Super::BeginPlay();
 	
 }
 
 // Called every frame
-void ARotateActor::Tick(float DeltaTime)
+void AActorRotate::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 

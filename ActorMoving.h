@@ -2,16 +2,16 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
-#include "KillingActor.generated.h"
+#include "ActorMoving.generated.h"
 
 UCLASS()
-class KILLEDBYACTOR_API AKillingActor : public AActor
+class LEARNINGACTOR_API AActorMoving : public AActor
 {
 	GENERATED_BODY()
 	
 public:	
 	// Sets default values for this actor's properties
-	AKillingActor();
+	AActorMoving();
 
 protected:
 	// Called when the game starts or when spawned

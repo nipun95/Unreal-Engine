@@ -1,11 +1,11 @@
-#include "KillingActor.h"
+#include "ActorMoving.h"
 #include "Components/StaticMeshComponent.h"
 #include "Components/SphereComponent.h"
 
 
 
 // Sets default values
-AKillingActor::AKillingActor()
+AActorMoving::AActorMoving()
 {
 
  	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
@@ -20,14 +20,14 @@ AKillingActor::AKillingActor()
 }
 
 // Called when the game starts or when spawned
-void AKillingActor::BeginPlay()
+void AActorMoving::BeginPlay()
 {
 	Super::BeginPlay();
 
 }
 
 // Called every frame
-void AKillingActor::Tick(float DeltaTime)
+void AActorMoving::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 

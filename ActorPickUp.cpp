@@ -14,7 +14,7 @@ AActorPickUp::AActorPickUp()
 	
 
 	BoxCollider = CreateDefaultSubobject<UBoxComponent>(TEXT("Box Collider"));
-	//BoxCollider->bGenerateOverlapEvents = true;
+	BoxCollider->setGenerateOverlapEvents (true);
 	BoxCollider->OnComponentBeginOverlap.AddDynamic(this, &AActorPickUp::OnBeginOverlap);
 	RootComponent = BoxCollider;
 	BoxCollider->SetWorldScale3D(FVector(0.5f, 0.5f, .015f));

@@ -4,16 +4,16 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
-#include "MovingOnCircle.generated.h"
+#include "ActorMovingOnCircle.generated.h"
 
 UCLASS()
-class LEARNINGACTOR_API AMovingOnCircle : public AActor
+class LEARNINGACTOR_API AActorMovingOnCircle : public AActor
 {
 	GENERATED_BODY()
 	
 public:	
 	// Sets default values for this actor's properties
-	AMovingOnCircle();
+	AActorMovingOnCircle();
 
 protected:
 	// Called when the game starts or when spawned

@@ -5,17 +5,17 @@
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
 #include "Components/ShapeComponent.h"
-#include "ActorPickUp.generated.h"
+#include "ActorPickUpAndStore.generated.h"
 
 
 UCLASS()
-class LEARNINGACTOR_API AActorPickUp : public AActor
+class LEARNINGACTOR_API AActorPickUpAndStore : public AActor
 {
 	GENERATED_BODY()
 	
 public:	
 	// Sets default values for this actor's properties
-	AActorPickUp();
+	AActorPickUpAndStore();
 
 protected:
 	// Called when the game starts or when spawned

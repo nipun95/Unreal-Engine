@@ -4,7 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
-#include "HideActor.generated.h"
+#include "ActorHide.generated.h"
 
 UCLASS()
 class ******** AHideActor : public AActor
@@ -13,7 +13,7 @@ class ******** AHideActor : public AActor
 	
 public:	
 	// Sets default values for this actor's properties
-	AHideActor();
+	AActorHide();
 
 protected:
 	// Called when the game starts or when spawned
